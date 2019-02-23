@@ -25,7 +25,8 @@ make_pizza(12,'mushrooms','green peppers',
 
 #import pizza as P
 # p.make_pizza(16, 'pepperoni')
-# p.make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+# p.make_pizza(12, 'mushrooms', 'green peppers',
+#  'extra cheese')
 
 
 #importing all functions in a module
