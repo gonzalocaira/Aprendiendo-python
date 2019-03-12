@@ -24,3 +24,20 @@ with open(filename) as file_object:
 
 for line in lines:
         print(line.rstrip())
+
+""" Working with a File's Contents """
+print('\n')
+    
+with open(filename) as file_object:
+   lines = file_object.readlines()
+
+pi_string = ''
+for line in lines:
+    pi_string += line.rstrip()
+    #pi_string += line.strip()
+
+print(pi_string[4:]+"...")
+print(pi_string[:15]+"...")
+print(len(pi_string))
+
+
